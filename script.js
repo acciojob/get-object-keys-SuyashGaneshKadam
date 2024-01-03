@@ -1,12 +1,8 @@
-//your JS code here. If required.
-let student = {
-	name: "Suyash"
-}
+const student = {
+  name: 'John' 
+};
 
-Object.prototype.getKeys = function(){
-	let ans = [];
-	for(i in student){
-		ans.push(i);
-	}
-	return ans;
-}
+// Add getKeys() method to Object prototype
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
+};
