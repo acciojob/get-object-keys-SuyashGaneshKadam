@@ -1,5 +1,5 @@
 const student = {
-  name: 'John' 
+  name: 'Suyash' 
 };
 
 // Add getKeys() method to Object prototype
